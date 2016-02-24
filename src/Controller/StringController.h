@@ -8,19 +8,21 @@
 #ifndef CONTROLLER_STRINGCONTROLLER_H_
 #define CONTROLLER_STRINGCONTROLLER_H_
 
-#include <string>
+#include <iostream>
+
 using namespace std;
 
 class StringController
 {
 private:
-	string count;
-	string comstring;
+	std::string salutations;
+	std::string goodbye;
+	int salutationsCount;
 public:
 	StringController();
-	void setString(string);
-	string getString();
 	void start();
+
+
 };
 
 
